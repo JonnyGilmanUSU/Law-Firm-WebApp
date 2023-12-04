@@ -1,0 +1,200 @@
+{
+  "contactRequests": [
+    {
+      "id": 1,
+      "firstName": "Frosty",
+      "lastName": "Snowman",
+      "email": "frosty@snowman.com",
+      "message": "I'm melting!"
+    },
+    {
+      "id": 2,
+      "firstName": "Santa",
+      "lastName": "Claus",
+      "email": "santa@claus.com",
+      "message": "Merry Christmas!"
+    },
+    {
+      "firstName": "Tooth",
+      "lastName": "Fairy",
+      "email": "tooth@fairy.com",
+      "message": "I like teeth!",
+      "id": 3
+    },
+    {
+      "firstName": "Jack",
+      "lastName": "Frost",
+      "email": "jack@frost.com",
+      "message": "test message",
+      "id": 4
+    },
+    {
+      "firstName": "Easter",
+      "lastName": "Bunny",
+      "email": "easter@bunny.com",
+      "message": "I like eggs.",
+      "id": 5
+    },
+    {
+      "firstName": "Test",
+      "lastName": "test",
+      "email": "test@test.com",
+      "message": "test",
+      "id": 6
+    },
+    {
+      "firstName": "Freddy",
+      "lastName": "Krueger",
+      "email": "freddy@krueger.com",
+      "message": "I'm really scary",
+      "id": 7
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@test",
+      "message": "test",
+      "id": 8
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@test.com",
+      "message": "testtest",
+      "id": 9
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Gilman",
+      "email": "jonnygman427@gmail.com",
+      "message": "asdasdasd",
+      "id": 10
+    }
+  ],
+  "featuredItems": [
+    {
+      "key": 1,
+      "title": "Our lawyers",
+      "description": "Our website templates are created with inspiration, checked for quality and originality.",
+      "image": "meeting.jpg",
+      "link": "index.html"
+    },
+    {
+      "key": 2,
+      "title": "Get to know us more",
+      "description": "Just browse through all our Free Website Templates and ﬁnd what you’re looking for.",
+      "image": "handshake.jpg",
+      "link": "index.html"
+    },
+    {
+      "key": 3,
+      "title": "What we offer",
+      "description": "Join the discussion on our forum and meet other people in the community.",
+      "image": "smile.jpg",
+      "link": "index.html"
+    },
+    {
+      "key": 4,
+      "title": "Get in touch with us",
+      "description": "And we love the challenge of doing something diferent and something special.",
+      "image": "family-small.jpg",
+      "link": "index.html"
+    }
+  ],
+  "aboutItems": [
+    {
+      "key": 1,
+      "header": "WE HAVE FREE TEMPLATES FOR EVERYONE",
+      "text": "Our website templates are created with inspiration, checked for quality and originality and meticulously sliced and coded. What's more, they're absolutely free! You can do a lot with them. You can modify them. You can use them to design websites for clients, so long as you agree with the Terms of Use. You can even remove all our links if you want to."
+    },
+    {
+      "key": 2,
+      "header": "WE HAVE MORE TEMPLATES FOR YOU",
+      "text": "Looking for more templates? Just browse through all our Free Website Templates and find what you're looking for. But if you don't find any website template you can use, you can try our Free Web Design service and tell us all about it. Maybe you're looking for something different, something special. And we love the challenge of doing something different and something special."
+    },
+    {
+      "key": 3,
+      "header": "BE PART OF OUR COMMUNITY",
+      "text": "If you're experiencing issues and concerns about this website template, join the discussion on our forum and meet other people in the community who share the same interests with you."
+    }
+  ],
+  "practices": [
+    {
+      "id": 1,
+      "title": "Prenuptial Agreement",
+      "image": "prenuptial.jpg",
+      "description": "Description for prenuptial agreement"
+    },
+    {
+      "id": 2,
+      "title": "Marriage",
+      "image": "bride.jpg",
+      "description": "Description for marriage"
+    },
+    {
+      "id": 3,
+      "title": "Divorce",
+      "image": "divorce.jpg",
+      "description": "Description for divorce"
+    }
+  ],
+  "lawyers": {
+    "Directors": [
+      {
+        "name": "Pauline H. Wilson",
+        "bio": "This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.You can remove any link to our website from this website template.",
+        "image": "thumbnail-sideview.jpg"
+      },
+      {
+        "name": "Kenneth P. Lundberg",
+        "bio": "This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.You can remove any link to our website from this website template.",
+        "image": "thumbnail-focus.jpg"
+      }
+    ],
+    "Senior Associates": [
+      {
+        "name": "George R. Montgomery",
+        "bio": "This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.You can remove any link to our website from this website template.",
+        "image": "thumbnail-smile.jpg"
+      }
+    ],
+    "Associates": [
+      {
+        "name": "Denise M. Silvia",
+        "bio": "This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.You can remove any link to our website from this website template.",
+        "image": "thumbnail-frontview.jpg"
+      },
+      {
+        "name": "Nancy R. Bakken",
+        "bio": "This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text.You can remove any link to our website from this website template.",
+        "image": "thumbnail-happy.jpg"
+      }
+    ]
+  },
+  "news": [
+    {
+      "title": "The Basics of Marriage Laws",
+      "date": "January 31, 2021",
+      "author": "John Adams",
+      "content": "This is a news post about marriage laws.",
+      "image": "bride-sideview.jpg",
+      "id": 1
+    },
+    {
+      "title": "Happy Newly Divorced Women",
+      "date": "March 18, 2021",
+      "author": "Thomas Jefferson",
+      "content": "This is a post about moving on with your life.",
+      "image": "happy.jpg",
+      "id": 2
+    },
+    {
+      "title": "Children & Divorced Parents",
+      "date": "June 15, 2021",
+      "author": "George Washington",
+      "content": "How to help kids deal with parents' separation.",
+      "image": "children.jpg",
+      "id": 3
+    }
+  ]
+}

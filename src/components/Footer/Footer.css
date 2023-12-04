@@ -1,0 +1,65 @@
+/*------------ FOOTER ------------*/
+#footer {
+	background: #d9d9d9 url(../../assets/images/bg-footer.png) repeat-x left top;
+	border-top: 2px solid #fff;
+}
+#footer .section {
+	float: left;
+	min-height: 146px;
+	width: 259px;
+	border-left: 1px solid #c2c2c2;
+	padding: 30px;
+}
+#footer .section h4 {
+	color: #626262;
+	font: bold 12px/24px Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+}
+#footer .section p {
+	font-size: 12px;
+	margin: 0;
+}
+#footer .section:first-child {
+	border: 0;
+}
+#footer .contact p span {
+	text-transform: uppercase;
+}
+#footnote {
+	background: url(../../assets/images/bg-footnote.jpg) repeat-x left top;
+	border-top: 1px solid #fff;
+	padding: 6px 0 3px;
+}
+#footnote p {
+	color: #b5c1aa;
+	font: 11px/30px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding-right: 10px;
+	text-align: right;
+	text-transform: uppercase;
+}
+#footnote .connect {
+	float: left;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 6px 0;
+}
+#footnote .connect a {
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-right: 6px;
+}
+#footnote .connect a.facebook {
+	background-position: 0 -112px;
+}
+#footnote .connect a.twitter {
+	background-position: 0 -140px;
+}
+#footnote .connect a.googleplus {
+	background-position: 0 -168px;
+}
+#footnote .connect a.pinterest {
+	background-position: 0 -196px;
+}

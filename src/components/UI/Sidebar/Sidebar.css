@@ -1,0 +1,56 @@
+.sidebar {
+	float: left;
+	width: 290px;
+	padding-right: 18px;
+}
+.sidebar > div {
+	margin: 0 0 30px;
+}
+.sidebar > div h2 {
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	margin: 0 0 6px;
+	padding-bottom: 18px;
+}
+.sidebar > div:first-child h2 {
+	margin-bottom: 0;
+	margin-top: 6px;
+}
+.sidebar > div p {
+	margin: 0;
+	padding-bottom: 24px;
+	padding-right: 30px;
+}
+.sidebar > div p span {
+	display: block;
+	text-align: right;
+}
+.sidebar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sidebar ul li {
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	display: inline-block;
+	min-height: 36px;
+	width: 280px;
+	padding: 6px 0 10px 10px;
+}
+.sidebar ul li > a span.box {
+	float: left;
+	margin-right: 20px;
+}
+.sidebar ul li a {
+	color: #755c02;
+	font: 13px/24px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.sidebar ul li a:hover {
+	color: #728063;
+}
+.sidebar ul li img.box {
+	float: left;
+	margin: 4px 20px 12px 0;
+}

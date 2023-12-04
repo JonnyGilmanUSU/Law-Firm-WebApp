@@ -1,0 +1,20 @@
+.sidebar .contact li {
+	background: none;
+	padding-left: 0;
+}
+.sidebar .contact li p {
+	padding: 0  0 0 30px;
+}
+.sidebar .contact li p span.home {
+	float: left;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-left: -30px;
+	padding: 0;
+}
+.sidebar .contact li p em {
+	display: block;
+	font-size: 19px;
+	font-style: normal;
+}

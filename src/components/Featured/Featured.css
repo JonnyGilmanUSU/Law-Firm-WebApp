@@ -1,0 +1,28 @@
+.featured {
+  padding: 30px 0;
+}
+.featured > h2 {
+  color: #728063;
+  width: 940px;
+  margin: 0 auto 24px;
+  padding: 0 10px;
+}
+.featured ul {
+  list-style: none;
+  padding: 0;
+}
+.featured li {
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+}
+.featured li p {
+  padding-left: 4px;
+}
+.featured li p b {
+  display: block;
+  text-transform: uppercase;
+}
+.featured li .more {
+  margin-left: 4px;
+}

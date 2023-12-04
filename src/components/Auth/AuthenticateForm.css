@@ -1,0 +1,30 @@
+.message label {
+	color: #626262;
+	display: block;
+	font: 13px/24px Arial, Helvetica, sans-serif;
+}
+.message input[type='text'],
+.message input[type='email'],
+.message input[type='password'] {
+	height: 24px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+}
+.message textarea {
+	height: 110px;
+	width: 590px;
+	margin: 0 0 18px;
+	padding: 0 4px;
+	overflow: auto;
+	resize: none;
+}
+.message input[type='submit'] {
+	cursor: pointer;
+	border: none;
+}
+
+/* class for error state */
+.error {
+	background-color:lightsalmon;
+}

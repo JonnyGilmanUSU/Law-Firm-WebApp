@@ -1,0 +1,119 @@
+img {
+	display: block;
+	border: 0;
+}
+/** box-shadow **/
+.box {
+	background-color: #e7e7e7; /* Needed for IE */
+	display: inline-block;
+	-moz-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	-webkit-box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	box-shadow: 0 0 1px 3px rgba(207, 207, 207, 0.6);
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShdow=true, ShadowOpacity=0.80);
+	/* For IE 8 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+}
+.box > img {
+	display: block;
+	position: relative; /* This protects the inner element from being blurred */
+}
+.clearfix {
+	width: 960px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	clear:both;
+	content:"";
+	display:block;
+	line-height:0;
+	height:1%;
+	visibility:hidden;
+}
+/*------------ Sprites ------------*/
+.more, .subscribe, input[type='submit'] {
+	background: url(./assets/images/interface.png) no-repeat;
+}
+.phone, .mail, .home, .fax, #footnote .connect a {
+	background: url(./assets/images/icons.png) no-repeat;
+}
+.frame1, .frame2, .frame3, .frame4, .frame5, .news > li {
+	background: url(./assets/images/frames.png) no-repeat;
+}
+.more, .subscribe, input[type='submit'] {
+	background-position: -107px 0;
+	color: #fff;
+	display: inline-block;
+	font: 12px/28px Arial, Helvetica, sans-serif;
+	height: 28px;
+	width: 97px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+	text-transform: uppercase;
+}
+.more:hover {
+	background-position: 0 0;
+}
+.subscribe, input[type='submit'] {
+	background-position: -222px -38px;
+	height: 38px;
+	line-height: 38px;
+	width: 212px;
+}
+.subscribe:hover, input[type='submit']:hover {
+	background-position: 0 -38px;
+}
+.home, .phone, .mail, .fax {
+	background-position: 0 1px;
+	padding-left: 24px;
+}
+.phone {
+	background-position: 0 -26px;
+}
+.fax {
+	background-position: 0 -54px;
+}
+.mail {
+	background-position: 0 -82px;
+}
+.frame1 {
+	background-position: -117px 0;
+	height: 150px;
+	width: 203px;
+	margin: 0 auto 6px;
+	padding: 8px 7px 0;
+	text-align: center;
+}
+.frame2 {
+	background-position: 0 -517px;
+	height: 316px;
+	width: 924px;
+	margin: 0 auto 18px;
+	padding: 6px 7px 0;
+	text-align: center;
+}
+.frame3 {
+	background-position: -344px 0;
+	height: 221px;
+	width: 586px;
+	margin: 0 auto 6px;
+	padding: 7px 7px 0;
+	text-align: center;
+}
+.frame4 {
+	background-position: 0 0;
+	height: 108px;
+	width: 93px;
+	padding: 7px 7px 0;
+	text-align: center;
+}
+.frame5 {
+	background-position: -610px -238px;
+	height: 220px;
+	width: 268px;
+	padding: 7px 6px 0;
+	text-align: center;
+}
+

@@ -1,0 +1,33 @@
+.news {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.news > li {
+	background-position: 0 -238px;
+	display: inline-block;
+	height: 269px;
+	width: 578px;
+	margin-bottom: 12px;
+	padding: 6px 22px 0 6px;
+}
+.news > li .box {
+	float: left;
+	margin-right: 20px;
+}
+.news > li p.info, .details p.info {
+	font-size: 11px;
+	margin: 0;
+	padding-top: 24px;
+}
+.author {
+	color: #755c02;
+}
+.news > li h2, .details h2 {
+	color: #728063;
+	letter-spacing: 0;
+	margin-bottom: 24px;
+}
+.news > li .more {
+	float: right;
+}
